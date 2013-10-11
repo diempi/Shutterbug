@@ -192,15 +192,18 @@ $experimental-support-for-svg: true;
   text-align: center;
   a{
     display: block;
+
   }
 }
 
 .picts {
   margin: 0 10px;
   float: left;
+
   img{
       background-color: #fff;
       padding: 10px;
+      box-shadow: 2px 2px 2px #888888;
     }
 }
 
@@ -250,12 +253,18 @@ $experimental-support-for-svg: true;
       font-family: Helvetica, Arial;
       font-size: 1.1em;
     }
-    ul{
+    li{
+      display: inline-block;
+    }
+}
+
+#feature{
+  margin-bottom: 70px;
+      ul{
       text-align: left;
       margin-top: 30px;
     }
   li{
-    display: inline-block;
     background-image: url('../img/footer-gallery-back.png');
       width: 228px;
       height:184px;
@@ -265,16 +274,33 @@ $experimental-support-for-svg: true;
     }
     img{
       margin-top: 0.8em;
-      margin-left: 0.4em;
+      margin-left: 0.85em;
     }
   }
 }
 
-#feature{
-  margin-bottom: 40px;
+#social{
+  h1{
+    font-size: 1.2em;
+    color: #f1d9a6;
+  }
+  ul{
+    text-align: left;
+    li{
+      width: 300px;
+      margin-right: 1em;
+    }    
+  }
+
 }
 
-
+.gal{
+  display: inline-block;
+  float: left;
+  width: 75px;
+  height: 75px;
+  margin-right: 10px;
+}
 
 /* ==========================================================================
    Helper classes
